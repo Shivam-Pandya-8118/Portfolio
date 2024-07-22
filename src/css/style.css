@@ -333,6 +333,7 @@
       justify-self: center;
       border-radius: 20px;
       box-shadow: 0px 0px 20px var(--color-primary);
+      pointer-events: none;
     }
   }
   
@@ -704,6 +705,7 @@
       justify-self: flex-end;
       border-radius: 20px;
       box-shadow: 0px 0px 20px var(--color-primary);
+      pointer-events: none;
     }
   }
   
