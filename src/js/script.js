@@ -1,3 +1,8 @@
+var loader = document.querySelector("#loader")
+setTimeout(function(){
+    loader.style.top = "-100%"
+}, 4200)
+
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navItem = document.querySelectorAll(".nav__item"),
