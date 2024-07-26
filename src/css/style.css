@@ -28,8 +28,8 @@
   
     /* z-index
     ___________________*/
-    --zindex-menu: 1000;
-    --zindex-fixed: 1010;
+    --zindex-menu: 800;
+    --zindex-fixed: 810;
   
     /* With & Height 
     ------------------*/
@@ -40,27 +40,6 @@
     /* Transition and box shadow*/
     --transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     --box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* CSS Reset
-  --------------------------------------------------------------*/
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4 {
-    color: var(--color-white);
-    font-weight: var(--fw-bold);
-  }
-  
-  html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
   }
   @keyframes loader {
     0%{
@@ -82,7 +61,7 @@
     width: 100%;
     background-color: #000;
     position: fixed;
-    z-index: 100;
+    z-index: 999;
     top: 0;
     transition: all 0.5s ease-in-out;
     display: flex;
@@ -119,7 +98,7 @@
         width: 100%;
         background-color: #000;
         position: fixed;
-        z-index: 100;
+        z-index: 999;
         top: 0;
         transition: all 0.5s ease-in-out;
         display: flex;
@@ -160,6 +139,27 @@
         background-color: green;
     }
 }
+  /* CSS Reset
+  --------------------------------------------------------------*/
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: var(--color-white);
+    font-weight: var(--fw-bold);
+  }
+  
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
   body,
   h1,
   h2,
