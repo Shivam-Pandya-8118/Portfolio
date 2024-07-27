@@ -1,7 +1,8 @@
+// loader programm
 var loader = document.querySelector("#loader")
 setTimeout(function(){
     loader.style.top = "-100%"
-}, 4200);
+}, 4000);
 
 const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
