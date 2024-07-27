@@ -5,43 +5,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Shivam Pandya.</title>
+    <title>Portfolio | Shivam Pandya</title>
     <link rel="shortcut icon" href="./src/img/favicon.png" type="image/x-icon">
-    <!--= Google Fonts =-->
+
+    <!-- Font Connect -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-
-    <!--= Remixicons=-->
+    <!-- RemixIcon Connect -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-    <!--= SwiperJS CSS =-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <!-- swiperJS connect -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
-
-    <!--= Main CSS =-->
+    <!-- custom (main) css connect -->
     <link rel="stylesheet" href="./src/css/style.css">
-
 </head>
 
 <body>
 
-     <!--= Loader =-->
+    <!-- loader -->
     <div id="loader">
         <h1>Welcome</h1>
         <h1>to</h1>
         <h1>My Portfolio</h1>
     </div>
-    
-    <!--= Header =-->
+
+   <!-- Header -->
     <header id="header" class="header">
         <div class="container">
             <nav class="nav">
                 <a href="index.html" class="nav__brand">
-                    <i class="ri-code-s-slash-line"></i><span>Shivam Pandya</span>
+                    <i class="ri-code-s-slash-line"></i>Shivam Pandya
                 </a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#hero" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#footer" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle">
+                    <i id="nav-toggle" class="ri-menu-3-line"></i>
+                </div>
             </nav>
         </div>
     </header>
@@ -52,21 +65,96 @@
             <div class="container">
                 <div class="d-grid hero__wrapper">
                     <div class="hero__content">
-                        <h1 class="hero__title">Hi, I am Shivam,<br>a Diploma student.</h1>
+                        <h1 class="hero__title">Hi, I am Shivam,<br>a Diploma student</h1>
                         <p class="hero__description">As a diploma student, I am thrilled to embark on this educational journey. This phase is crucial for laying the groundwork of foundational skills and essential knowledge in my chosen field. I look forward to immersing myself in new concepts, overcoming challenges, and preparing for future career opportunities. With dedication and enthusiasm, I am eager to learn, grow, and make significant strides in both academic and personal development during this transformative experience.</p>
                     </div>
-                    <img src="./src/img/Profile.jpg" alt="Shivam Pandya !!!" class="hero__img">
+                    <img src="./src/img/Profile.jpg" alt="Shivam Pandya !" class="hero__img">
                 </div>
             </div>
         </section>
 
-    <!--======= SwiperJS  ======-->
+        <!--= About =-->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section__header">
+                    <h2 class="section__title">About Me</h2>
+                    <span class="section__subtitle">Who am I</span>
+                </div>
+                <div class="d-grid about__wrapper">
+                    <div class="about__content">
+                        <h3 class="about__title">I'm a Professional and Experienced Graphic designer and Media editor.</h3>
+                        <p class="about__description">As a seasoned graphic designer and media editor, I blend creativity with technical precision to craft visually stunning content. My expertise spans a range of Adobe tools, including Photoshop, Illustrator, and InDesign, enabling me to design striking graphics and layouts. I use Figma and Adobe XD to create intuitive web and app interfaces, and Adobe Lightroom to perfect photo imagery. With Adobe Premiere Pro and Wondershare Filmora, I produce engaging video content, while Adobe After Effects adds dynamic animations to enhance storytelling. I also refine audio elements with Adobe Audition, and leverage Adobe Express and Firefly for streamlined content creation. Passionate about visual storytelling, I am committed to delivering impactful, polished media across diverse platforms.</p>
+                    </div>
+                    <div class="skills">
+                        <h3 class="skills__title">Softwares I've been working with:</h3>
+                        <div class="skills__wrapper">
+                            <div class="skills__content">
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Adobe Photoshop</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Adobe Illustrator</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Adobe Lightroom</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Adobe InDesign</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Adobe XD</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Figma</li>
+                                </ul>
+                            </div>
+                            <div class="skills__content">
+                                <ul class="skills__list">
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Adobe After Effects</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Adobe Premier Pro</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Adobe Audition</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Adobe Express</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Adobe Firefly</li>
+                                    <li class="skills__item"><i class="ri-arrow-right-s-fill"></i>
+                                        Wondershare Filmora</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--======== footer =====-->
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="d-grid footer__wrapper">
+                <div class="footer__content">
+                    <h4 class="footer__title">Get in touch!</h4>
+                    <ul class="footer__social-list">
+                        <li class="footer__social-item">
+                            <a href="mailto:smpandya2008@gmail.com" target="_blank" class="footer__social-link">
+                                <i class="ri-mail-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/shivam.pandya_" target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer__copyright">&copy; 2024 Shivam Pandya. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+   <!-- SwiperJS connect -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-    <!--======= ScrollReveal ======-->
+    <!-- scrollRevealJS -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
-    <!--====== Main JS =======-->
+    <!-- Custom (main) JS -->
     <script src="./src/js/script.js"></script>
 </body>
 
