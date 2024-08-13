@@ -265,7 +265,8 @@ body {
 /* Header
 --------------------------------------------------------------*/
 .header {
-  background-color: var(--color-bg-primary);
+  background-color: #0000003b;
+  backdrop-filter: blur(20px);
   position: fixed;
   top: 0;
   left: 0;
